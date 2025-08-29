@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useContactFormStore from "../../store/contactFormStore";
-import Popup from "../popup.jsx";
+import Popup from "../popup";
 
 const ContactUsForm = () => {
   const [IsSubmitted, setIsSubmitted] = useState(false);
